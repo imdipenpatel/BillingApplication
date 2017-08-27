@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fdeed9bb90824036a2fa3ed19b658ecc" Name="Diagram1">
+        <EntityTypeShape EntityType="BillingDBModel.GroupMaster" Width="1.5" PointX="3.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BillingDBModel.Role" Width="1.5" PointX="0.5" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="BillingDBModel.FK_GroupMaster_GroupMaster" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BillingDBModel.User" Width="1.5" PointX="2.75" PointY="4" />
+        <AssociationConnector Association="BillingDBModel.UserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
