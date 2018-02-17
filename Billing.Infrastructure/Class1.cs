@@ -8,6 +8,5 @@ namespace Billing.Infrastructure
 {
     public class Class1
     {
-        public int i = 1; 
     }
 }
