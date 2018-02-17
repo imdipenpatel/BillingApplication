@@ -22,7 +22,6 @@ namespace Billing
             {
                 Application.Exit();
             }
-            //Application.Run(new Billing.Forms.frmLogin());
         }
     }
 }
